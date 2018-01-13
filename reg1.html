@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<style>
+body {
+    background-image: url(".jpg");
+    background-position: right;
+    background-repeat:no-repeat;
+    text-align: center;
+}
+form {
+	text-align: center;
+}
+</style>
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-social.css">
+<link rel="stylesheet" href="css/style.css">
+<script>
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+var to = "http://geeksforgeeks.org"; </script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<meta name="google-signin-scope" content="profile email">
+		<meta name="google-signin-client_id" content="388036620207-3uolk1hv6ta7p3r9l6s3bobifh086qe1.apps.googleusercontent.com">
+		<script src="https://apis.google.com/js/platform.js"></script>
+		<script src='gfg.js'></script>
+		<title>STRYKER</title>
+	</head>
+	<body>
+	<h1 align="center"><font color="black">STRYKER</font></h1>
+	<h2 align="center"><font color="black">A Global Leader In Medical Technology</font></h2>
+	<h3>Register</h3>
+<div class="jumbotron">	
+<form role="form" class="index-page-form"  >
+	<input type="hidden" name="reqType" value="Register">
+	<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="First name" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Last name" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Gender" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Date Of Birth" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div><div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Street No." autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="City" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="District" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="State" autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Email Id." autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Contact No." autofocus="autofocus" required="required" type="text" class="form-control" name="user">
+		</div>
+	</div>
+	<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input placeholder="Create Password" type="password" required="required" class="form-control" name="pass">
+		</div>
+	</div>
+	<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5"></div>
+	</div>
+	<div class="row form-group">
+		<div class="col-sm-offset-1 col-sm-5">
+			<input style="width:100%" type="submit" class="btn btn-success" value="Register">
+		</div>
+	</div>
+</form>
+</div>
+</div>
+</body>
+</html>
